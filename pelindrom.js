@@ -1,10 +1,10 @@
 let str="abcba";
 let blnk ="";
-for(let i=0;i<str.length;i++){
-    blnk+=str[i];
+for(let i=str.length-1;i>=0;i--){
+    blnk += str[i];
 }
-if(str==blnk){
-    console.log("palindrom");
+if(str == blnk){
+    console.log("Palindrome");
 }else{
-    console.log("not palindrom")
+    console.log("Not a Palindrome");
 }
